@@ -12,9 +12,24 @@ if keyboard_check(ord("A")){
 
 if place_meeting(x,y+1,obj_ground){
 	ySpeed=0;
-	if keyboard_check(ord("W")){
+	if (keyboard_check(ord("W"))or keyboard_check(vk_space)){
 		ySpeed=-2;
 	}
 }
 
 move_and_collide(xSpeed,ySpeed,obj_ground);
+
+if place_meeting(x,y+1, BrokenGround){
+	ySpeed = 0
+	//jump
+	if (keyboard_check(ord("W"))or keyboard_check(vk_space)){
+		ySpeed=-2;
+	}
+}
+
+move_and_collide(xSpeed,ySpeed,BrokenGround)
+
+//spike collision
+if place_meeting(x,y,Spike){
+	room_restart()
+}
