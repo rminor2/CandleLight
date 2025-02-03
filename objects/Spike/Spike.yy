@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"Spike",
   "eventList":[],
   "managed":true,
-  "name":"obj_player",
+  "name":"Spike",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spike_spr",
+    "path":"sprites/Spike_spr/Spike_spr.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

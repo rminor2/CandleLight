@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_ground",
-    "path":"sprites/spr_ground/spr_ground.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

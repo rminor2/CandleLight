@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"Ground",
   "eventList":[],
   "managed":true,
-  "name":"obj_player",
+  "name":"Ground",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Ground_spr",
+    "path":"sprites/Ground_spr/Ground_spr.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
