@@ -24,8 +24,8 @@
     {"name":"rm_house1","order":2,"path":"rooms/rm_house1/rm_house1.yy",},
     {"name":"rm_street","order":1,"path":"rooms/rm_street/rm_street.yy",},
     {"name":"rm_test","order":3,"path":"rooms/rm_test/rm_test.yy",},
-    {"name":"spr_broken","order":2,"path":"sprites/spr_broken/spr_broken.yy",},
-    {"name":"spr_ground","order":3,"path":"sprites/spr_ground/spr_ground.yy",},
-    {"name":"spr_spike","order":5,"path":"sprites/spr_spike/spr_spike.yy",},
+    {"name":"spr_ground","order":1,"path":"sprites/spr_ground/spr_ground.yy",},
+    {"name":"spr_player","order":4,"path":"sprites/spr_player/spr_player.yy",},
+    {"name":"spr_spike","order":2,"path":"sprites/spr_spike/spr_spike.yy",},
   ],
 }
