@@ -51,10 +51,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
-    {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
-    {"roomId":{"name":"rm_street","path":"rooms/rm_street/rm_street.yy",},},
     {"roomId":{"name":"rm_house1","path":"rooms/rm_house1/rm_house1.yy",},},
+    {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
+    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"roomId":{"name":"rm_street","path":"rooms/rm_street/rm_street.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
