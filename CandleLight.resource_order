@@ -30,5 +30,6 @@
     {"name":"Player_spr","order":4,"path":"sprites/Player_spr/Player_spr.yy",},
     {"name":"Spike_spr","order":5,"path":"sprites/Spike_spr/Spike_spr.yy",},
     {"name":"spr_ground","order":1,"path":"sprites/spr_ground/spr_ground.yy",},
+    {"name":"Sprite3","order":16,"path":"sprites/Sprite3/Sprite3.yy",},
   ],
 }
