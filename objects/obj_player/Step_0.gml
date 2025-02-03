@@ -23,3 +23,10 @@ move_and_collide(xSpeed,ySpeed,BrokenGround)
 if place_meeting(x,y,Spike){
 	room_restart()
 }
+
+/*if place_meeting(x,y+1, BrokenGround){
+	timer = timer + 1
+	if (timer = 60){
+		instance_destroy(BrokenGround)
+	}
+}*/
