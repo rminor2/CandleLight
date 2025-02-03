@@ -16,6 +16,10 @@ if (place_meeting(x,y+1,Ground) or place_meeting(x,y+1,BrokenGround)){
 		ySpeed=-2;
 	}
 }
+if(place_meeting(x+1,y,Ground)or place_meeting(x-1,y,Ground)){
+	xSpeed=0;
+}
+
 move_and_collide(xSpeed,ySpeed,Ground);
 move_and_collide(xSpeed,ySpeed,BrokenGround)
 
