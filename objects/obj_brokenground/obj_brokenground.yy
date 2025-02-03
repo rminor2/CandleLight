@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"BrokenGround",
+  "%Name":"obj_brokenground",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"BrokenGround",
+  "name":"obj_brokenground",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Broken_spr",
-    "path":"sprites/Broken_spr/Broken_spr.yy",
+    "name":"spr_broken",
+    "path":"sprites/spr_broken/spr_broken.yy",
   },
   "spriteMaskId":null,
   "visible":true,
