@@ -46,6 +46,7 @@
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_spike","path":"sprites/spr_spike/spr_spike.yy",},},
+    {"id":{"name":"ground","path":"tilesets/ground/ground.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
