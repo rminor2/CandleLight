@@ -21,5 +21,6 @@
     {"name":"rm_house1","order":2,"path":"rooms/rm_house1/rm_house1.yy",},
     {"name":"rm_street","order":1,"path":"rooms/rm_street/rm_street.yy",},
     {"name":"spr_ground","order":1,"path":"sprites/spr_ground/spr_ground.yy",},
+    {"name":"Sprite3","order":16,"path":"sprites/Sprite3/Sprite3.yy",},
   ],
 }
