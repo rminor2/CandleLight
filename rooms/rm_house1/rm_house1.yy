@@ -5,10 +5,14 @@
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
-  "instanceCreationOrder":[],
+  "instanceCreationOrder":[
+    {"name":"inst_39E3E412","path":"rooms/rm_house1/rm_house1.yy",},
+  ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_39E3E412","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39E3E412","objectId":{"name":"obj_ground","path":"objects/obj_ground/obj_ground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":10.0,"scaleY":1.0,"x":0.0,"y":416.0,},
+      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"ground","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":32,"SerialiseWidth":188,"TileCompressedData":[
           -2632,-2147483648,-8,9,-2,-2147483648,-50,9,-3,-2147483648,-50,9,-4,-2147483648,-54,9,-2,-2147483648,
           -23,9,-2,-2147483648,-50,9,-3,-2147483648,-50,9,-4,-2147483648,-54,9,-2,-2147483648,-17,9,-185,-2147483648,
