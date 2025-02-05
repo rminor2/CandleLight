@@ -1,2 +1,2 @@
 event_inherited();
-room_goto(rm_spaceminigame);
+room_goto(rm_house1);
