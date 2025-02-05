@@ -4,7 +4,7 @@ if place_meeting(x,y-1, obj_player){
 
 if (trigger){
 	timer = timer + 1;
-	if (timer == 60 ){
+	if (timer == 30 ){
 		instance_destroy()
 	}
 }
