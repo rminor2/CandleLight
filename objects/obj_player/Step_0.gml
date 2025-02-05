@@ -51,7 +51,7 @@ move_and_collide(xSpeed,ySpeed,obj_brokenground)
 
 //spike collision
 if place_meeting(x,y,obj_spike){
-	room_restart()
+	room_goto(rm_gameover);
 }
 
 // Get camera size
