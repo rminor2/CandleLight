@@ -10,10 +10,15 @@ if keyboard_check(ord("A")){
 	xSpeed-=1;
 }
 
+
+
+
 if (place_meeting(x,y+1,obj_ground) or place_meeting(x,y+1,obj_brokenground)){
 	ySpeed=0;
+	isJumping = false;
 	if (keyboard_check(ord("W"))or keyboard_check(vk_space)){
 		ySpeed=-2;
+		isJumping = true;
 	}
 }
 if(place_meeting(x+1,y,obj_ground) or place_meeting(x-1,y,obj_ground)){
@@ -21,6 +26,24 @@ if(place_meeting(x+1,y,obj_ground) or place_meeting(x-1,y,obj_ground)){
 }
 if(place_meeting(x+1,y,obj_brokenground) or place_meeting(x-1,y,obj_brokenground)){
 	xSpeed=0;
+}
+
+if (xSpeed > 0) {
+    image_xscale = 1;
+} else if (xSpeed < 0) {
+    image_xscale = -1;
+}
+
+if (isJumping) {
+    image_index = 2; 
+    image_speed = 0;
+} 
+
+if (xSpeed != 0 || ySpeed != 0) {
+    image_speed = 1;
+} else {
+    image_index = 0;
+	image_speed = 0;
 }
 
 move_and_collide(xSpeed,ySpeed,obj_ground);
@@ -52,5 +75,6 @@ camera_set_view_pos(view_get_camera(0), cam_x, cam_y);
 
 // Check if player is outside room boundaries
 if (x < 0 || x > room_width || y < 0 || y > room_height) {
-    room_restart(); // Restart the room
+    room_restart();
 }
+
