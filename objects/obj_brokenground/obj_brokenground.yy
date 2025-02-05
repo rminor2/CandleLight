@@ -9,8 +9,8 @@
   "name":"obj_brokenground",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Objects/Menu.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
